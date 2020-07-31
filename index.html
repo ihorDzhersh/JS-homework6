@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <!--**********************task1**********************************  -->
+
+    <!-- <div id="test">First</div>
+
+    <script>
+
+    //document.getiementsByTagName("div")[0].innerHTML = "Last";
+    //document.getiementById("test").innerHTML = "Last";
+
+    </script> -->
+    
+    <!--**********************task2**********************************  -->
+
+    <!-- <img class="image" src="cat.jpg">
+
+    <script>
+      
+    document.getElementsByClassName("image")[0].src = "dog.jpg";
+    console.log(document.getElementsByClassName("image")[0]);
+       
+    </script> -->
+
+    <!--**********************task3**********************************  -->
+
+    <!-- <h2>Article header</h2>      
+    <div id="text">
+      <p>First paragraph</p>
+      <p>Second paragraph</p>
+      <p>Third paragraph</p>
+    </div>
+  <p>Another text</p>
+
+  <script>
+        let elements = document.querySelectorAll("p");
+        for (let i = 0; i < elements.length; i++) {
+            const element = elements[i];
+            console.log("Selector text "+i+": "+element.innerHTML)
+            
+        }
+  </script> -->
+
+<!--**********************task4**********************************  -->
+
+<!-- <ul id="list">
+    <li>1</li>
+    <li>2</li>
+    <li>3</li>
+    <li>4</li>
+    <li>5</li>
+</ul>
+
+<script>
+
+    console.log(list.children[0].innerHTML);
+    console.log(list.children[4].innerHTML);
+    console.log(list.children[1].innerHTML);
+    console.log(list.children[3].innerHTML);
+    console.log(list.children[2].innerHTML);
+
+</script> -->
+
+<!--**********************task5**********************************  -->
+
+<!-- <h1>I'am a big header!!!</h1>
+<div id="myDiv">
+    <p>First paragraph</p>
+    <p>Second paragraph</p>
+    <p>Third paragraph</p>
+    <p>Fourth paragraph</p>
+</div>
+<ul id="myList">
+    <li>Make</li>
+    <li>me</li>
+    <li>horizontal!</li>
+</ul>
+<span>Make me invisible, please!</span>
+
+<script>
+    document.body.style = "border: 1px solid black; padding: 4px";
+    document.getElementsByTagName("h1")[0].style = "background-color: #33ff33 ";
+    myDiv.children[0].style = "font-weight: bold";
+    myDiv.children[1].style = "color: red";
+    myDiv.children[2].style = "text-decoration: underline";
+    myDiv.children[3].style = "font-style: italic; font-weight: lighter";
+    let liTags =  document.querySelectorAll("li")
+    myList.children[0].style = "display: inline-block";
+    myList.children[1].style = "display: inline-block";
+    myList.children[2].style = "display: inline-block";
+    document.getElementsByTagName("span")[0].style=" display: none"
+</script> -->
+
+<!--**********************task6**********************************  -->
+
+    <!-- <input type="text" id="input1" value="Text1">
+    <input type="text" id="input2" value="Text2">
+    <button onclick="change()">change</button>
+
+    <script>
+
+        let message1 = prompt("Enter your first message...");
+        let message2 = prompt("Enter your second message...");
+        let firstInput = document.getElementById("input1");
+        let secondInput = document.getElementById("input2");
+        firstInput.value = message1;
+        secondInput.value = message2;
+       
+       function change(){
+         return (firstInput.value = message2) && (secondInput.value = message1);                
+       }
+
+    </script> -->
+
+<!--**********************task7**********************************  -->
+
+<!-- <script>
+    let body = document.createElement("body");
+    let main = document.createElement("main");
+    main.className = "mainClass check item";
+    let div = document.createElement("div");
+    div.id = "myDiv";
+    let p = document.createElement("p");
+    let pText = document.createTextNode("First paragraph");
+    body.appendChild(main);
+    main.appendChild(div);
+    div.appendChild(p);
+    p.appendChild(pText);
+
+    console.log(body.outerHTML);
+    
+</script> -->
+</body>
+</html>
